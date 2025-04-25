@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { faker } from "@faker-js/faker";
 
 // Set the base URL based on the environment (local or production)
-const baseUrl = process.env.NODE_ENV === "development" ? process.env.REACT_APP_API_BASE_URL || "http://localhost:3005" : "https://media-backend-4ywz.onrender.com"; // Production URL
+const baseUrl = process.env.NODE_ENV === "development" ? process.env.REACT_APP_API_BASE_URL || "http://localhost:3001" : "https://media-backend-4ywz.onrender.com"; // Production URL
 
 const photosApi = createApi({
   reducerPath: "photos",
